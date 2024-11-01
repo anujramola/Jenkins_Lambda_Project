@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from hello_world import app
+from lambda_deploy.hello_world.app import lambda_handler
 
 
 @pytest.fixture()
