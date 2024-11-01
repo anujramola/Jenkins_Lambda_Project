@@ -20,7 +20,7 @@ Resources:
     Properties:
       CodeUri: hello_world/
       Handler: app.lambda_handler
-      Runtime: python3.12
+      Runtime: python3.8
       Architectures:
       - x86_64
       Events:
