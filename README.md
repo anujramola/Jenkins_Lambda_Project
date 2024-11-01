@@ -4,3 +4,12 @@
 ![sam-deploy](output_screenshots/sam_deploy.png)
 ![get-url](output_screenshots/url.png)
 ![get-output](output_screenshots/hello_world.png)
+
+![Jenkins Console URL](output_screenshots/jenkins-url.png)
+![URL output for pipeline run by jenkins](output_screenshots/hello-world-jenkins.png)
+![all the jenkins stages](output_screenshots/jenkins-build.png)
+![verifying lambda function on aws](output_screenshots/aws-lambda.png)
+![verifying lambda logs using cloudwatch service in aws](output_screenshots/aws-cloudwatch-logs.png)
+![Cloudformation stacks verification (Jenkins-deploy)](output_screenshots/aws-cloudformation.png)
+![Api gateway verification](output_screenshots/aws-api-gateway.png)
+![Deleting all the resources created using sam](output_screenshots/sam-delete.png)
