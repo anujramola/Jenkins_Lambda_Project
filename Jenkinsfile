@@ -3,6 +3,7 @@ pipeline {
     environment {
         AWS_SAM_STACK_NAME = "jenkins-deploy"
         AWS_REGION = "us-east-1"
+        AWS_DEFAULT_REGION = "us-east-1"
     }
 
     stages {
