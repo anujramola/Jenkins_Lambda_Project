@@ -15,6 +15,7 @@ class TestApiGateway:
     def api_gateway_url(self):
         """ Get the API Gateway URL from Cloudformation Stack outputs """
         stack_name = os.environ.get("AWS_SAM_STACK_NAME")
+        region_name = os.environ.get("AWS_REGION")
 
         if stack_name is None:
             raise ValueError('Please set the AWS_SAM_STACK_NAME environment variable to the name of your stack')
