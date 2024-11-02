@@ -1,6 +1,8 @@
 # Jenkins_Lambda_Project
 
 ## Project Overview
+Architecture Diagram:-
+![architecture_diagram](output_screenshots/architecture.png)
 
 The Jenkins Lambda Project automates the deployment of a serverless application hosted on AWS Lambda. It utilizes AWS SAM (Serverless Application Model) to build and manage the serverless application and Jenkins as the CI/CD tool to streamline the process from code commit to deployment.
 
